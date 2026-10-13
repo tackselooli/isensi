@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Vazirmatn", "Inter", sans-serif;
+}
+
+/* Use Inter for Latin / English mode */
+body.font-en,
+body.font-en * {
+  font-family: "Inter", "Vazirmatn", sans-serif;
+}
+
+/* Mirror spacing utilities when in RTL */
+html[dir="rtl"] body {
+  direction: rtl;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #21295c;
+}
+
+/* Splash animation helpers (used by SplashScreen) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-fadeIn { animation: fadeIn 1s ease-in-out; }
+.animate-slideUp { animation: slideUp 0.8s ease-out; }
+.text-shadow { text-shadow: 2px 2px 8px rgba(0,0,0,0.6); }
