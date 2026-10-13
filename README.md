@@ -14,6 +14,32 @@
 
 ---
 
+## 🖼️ Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/dashboard-screenshot.png" alt="Dashboard desktop view" width="100%" />
+      <br />
+      <sub><b>Dashboard — Desktop</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/dashboard-screenshot-tabletview.png" alt="Dashboard tablet view" width="100%" />
+      <br />
+      <sub><b>Dashboard — Tablet</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="assets/home-screenshot-mobileview.png" alt="Home mobile view" width="40%" />
+      <br />
+      <sub><b>Home — Mobile</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## ✨ What Makes isensi Special?
 
 | Feature               | What It Actually Means                                                                   |
