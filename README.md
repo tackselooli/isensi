@@ -14,19 +14,6 @@
 
 ---
 
-## 🚨 The Story
-
-This codebase was inherited in a **half-broken state**.  
-Pages didn't render. The dashboard was an empty shell. The gallery was broken.  
-Instead of starting over, it was **fully repaired, refactored, and leveled up.**
-
-Every page now renders. The dashboard is alive with charts and stats.  
-The gallery shows every image. The entire UI flips between **Persian (RTL)** and **English (LTR)** without breaking a sweat.
-
-> **TL;DR** — Clone → `npm install` in both `backend/` and `frontend/` → start MongoDB → `npm start` (backend) → `npm run dev` (frontend) → open `http://localhost:5173`.
-
----
-
 ## ✨ What Makes isensi Special?
 
 | Feature               | What It Actually Means                                                                   |
